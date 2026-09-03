@@ -1,13 +1,18 @@
-import React from "react";
-import Navbar from "./Navbar";
+import BrandLogos from "./components/BrandLogos";
+import Herro from "./components/Herro";
+import Navbar from "./components/Navbar";
+import NewArrivals from "./components/NewArrivals";
 
 function App() {
   return (
-    <section className="border">
+    <div className="border">
       <div className="container">
         <Navbar />
       </div>
-    </section>
+      <Herro />
+      <BrandLogos />
+      <NewArrivals />
+    </div>
   );
 }
 

@@ -5,7 +5,7 @@ import { VscAccount } from "react-icons/vsc";
 
 function Navbar() {
   return (
-    <header className="flex gap-10 items-center py-3 border">
+    <header className="flex gap-10 items-center !py-3">
       <h1 className="font-extrabold text-black text-[2rem]">SHOP.CO</h1>
       <ul className="flex gap-6 font-[1.375rem] text-gray-700 text-[1rem]">
         <li className="flex gap-1 items-center ">
@@ -22,7 +22,7 @@ function Navbar() {
         <input
           type="text"
           placeholder="Search for products..."
-          className="w-[44rem] outline-0 text-gray-500"
+          className="w-[43.25rem] outline-0 text-gray-500"
         />
       </div>
       <div className="flex gap-4 text-[1.20rem]">
