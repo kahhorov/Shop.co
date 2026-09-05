@@ -1,5 +1,5 @@
 import React, { useContext, useState } from "react";
-import { Link, useParams } from "react-router-dom";
+import { Link, rams } from "react-router-dom";
 import { FaCheck, FaStar } from "react-icons/fa";
 import { TiStarHalf } from "react-icons/ti";
 import {
@@ -186,7 +186,9 @@ function ProductDetail() {
             </div>
 
             <button
-              onClick={() => addToCart(product, size, colors[color].name, count)}
+              onClick={() =>
+                addToCart(product, size, colors[color].name, count)
+              }
               className="bg-black rounded-full !py-3 w-[60%] text-white hover:bg-gray-700 transition duration-300 ease-in-out"
             >
               Add to Cart
